@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card de Produto</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="product-image">
+            <button id="btn-360" onclick="toggle()">
+                <img src="./img/360.svg" alt="Clique no botao para animar o sofa">
+            </button>
+            <button id="btn-close" onclick="toggle()">
+                <img src="./img/close.svg" alt="Clique para parar de animar o sofa">
+            </button>
+            <img id="static" src="./img/sofa.jpg" alt="sofa">
+            <img id="animated" src="./img/sofa.gif" alt="sofa animado">
+        </div>
+        <div id="product-details">
+            <h4>CÓDIGO: 42404</h4>
+            <h1>Sofá Margot II - Rosé</h1>
+            <p>R$ 4.000 </p>
+            <button>ADICIONAR À CESTA</button>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
