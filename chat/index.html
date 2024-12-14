@@ -44,7 +44,17 @@
                 </div>
             </div>
         </div>
-        <div id="bottom">C</div>
+        <form id="bottom">
+            <input type="text" placeholder="Digite sua mensagem">
+            <button>
+                <img src="./img/enviar.svg" alt="">
+            </button>
+        </form>
     </div>
+
+    <script>
+        const messages = document.querySelector('.messages');
+        messages.lastElementChild.scrollIntoView();
+    </script>
 </body>
 </html>
